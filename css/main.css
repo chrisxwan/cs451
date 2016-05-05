@@ -1,5 +1,6 @@
 body {
 	font-family: 'Cardo', serif;
+	overflow-x: hidden;
 }
 
 .fixed-nav-bar {
@@ -12,12 +13,6 @@ body {
   background-color: #191919;
 }
 
-#gallery-title {
-	text-align: center;
-	font-size: 30px;
-	color: white;
-	margin-top: 15px;
-}
 
 #title {
 	text-align: center;
@@ -58,10 +53,40 @@ body {
 	margin-top: 100px;
 }
 
+#recursive-nav-title {
+	display: inline;
+	margin-top: 15px;
+	width: 150px;
+	clear: both;
+	margin-left: 25%;
+}
+
+#back {
+	display: inline;
+	margin-top: 20px;
+    width: 150px;
+    margin-left: 20px;
+}
+
+#history {
+	display: inline;
+	width: 150px;
+	float: right;
+    margin-top: 22px;
+    margin-right: 20px;
+}
+
 .recursive-container {
 	width: 850px;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.recursive-title {
+	text-align: center;
+	margin-top: 90px;
+	font-size: 36px;
+	font-weight: 300;
 }
 
 .recursive-large {
@@ -80,24 +105,46 @@ body {
 	margin-top: 20px;
 }
 
-.recursive-single-right {
+.recursive-stack-right {
+	display:block;
+	width: 575px;
+	margin-top: 20px;
+	float: right;
+}
+
+.recursive-single {
 	display: block;
 	width: 250px;
 	margin-top: 20px;
+}
+
+.recursive-single-right {
+	
 	margin-right: 20px;
 }
 
 .recursive-single-left {
-	display: block;
-	width: 250px;
-	margin-top: 20px;
 	margin-left: 10px;
 	margin-top: 0px;
 }
 
 .recursive-single-middle {
-	clear: both;
-	width: 250px;
-	margin-top: 0px;
-	margin-left: 35px;
+	padding-left: 35px;
+	margin-left: 85px;
+}
+
+.sliver {
+	position: absolute;
+    top: 180;
+    display: inline;
+    right: 0;
+    width: 60px;
+    height: 450px;
+	overflow: hidden;
+}
+
+#recursive-sliver{
+	position: absolute;
+    display: inline;
+    height: 450px;
 }
