@@ -148,3 +148,37 @@ body {
     display: inline;
     height: 450px;
 }
+
+
+
+.history {
+	background-color: #4F4F4F;
+}
+
+.curr-history {
+	width: 650px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.history-container {
+	overflow-x:hidden;
+}
+
+.dg-prev {
+	font-size: 100px;
+    margin-bottom: -500px;
+    color: white;
+    z-index: 9999;
+    margin-left: 50px;
+}
+
+.dg-next {
+	font-size: 100px;
+    margin-bottom: -500px;
+    color: white;
+    z-index: 9999;
+    margin-left:750px;
+}
+

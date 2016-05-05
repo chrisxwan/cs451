@@ -1,0 +1,35 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="./css/main.css">
+	<link rel="stylesheet" type="text/css" href="./css/style.css" />
+	<script type="text/javascript" src="./js/modernizr.custom.53451.js"></script>
+	<title></title>
+</head>
+<body class="history">
+	<nav class="fixed-nav-bar">
+		<a href="index.html"><img src="./img/back.png" id="back"></a>
+		<img src="./img/gallery_2_2.png" id="recursive-nav-title">
+		<!-- <p id="gallery-title">GALLERY 1/1</p> -->
+	</nav>
+	<section class="history-container dg-container" id="dg-container">
+		<div class="dg-wrapper">
+			<a href="recursive-2-2.html"><img src="./img/history_2_2.png" class="curr-history" ></a>
+			<a href="recursive-2-2.html"><img src="./img/history_2_2.png" class="curr-history"></a>
+		</div>
+		<nav>
+			<span class="dg-prev">&lt;</span>
+			<span class="dg-next">&gt;</span>
+		</nav>
+	</section>
+	
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.gallery.js"></script>
+	<script type="text/javascript">
+		$(function() {
+			$('#dg-container').gallery();
+		});
+	</script/>
+
+		
+</body>
+</html>
