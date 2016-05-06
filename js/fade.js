@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	$("body").hide();
-	$("body").fadeIn(400);
+	$("body").fadeIn(200);
 	// $('.holder').toggleClass("visible");
 
 
@@ -23,10 +23,10 @@ $(document).ready(function() {
 		console.log("here");
 	});
 
-	$(".back #history ").click(function(event) {
+	$(".back").click(function(event) {
 		event.preventDefault();
 		var newLocation = this.href;
-		$(this).parent().parent().fadeOut(500);
+		$(this).parent().parent().fadeOut(300);
 		// Delays action
 		// console.log(newLocation);
 		window.setTimeout(function() {
@@ -35,7 +35,7 @@ $(document).ready(function() {
 			// $('html').fadeIn();
 		    // Redirects to new destination
 				window.location = newLocation;
-		}, 500);
+		}, 300);
 		// $(".tuileries").css("visibility", "hidden");
 		// $(".versailles").attr("class", "tuileries");
 		// console.log("back");

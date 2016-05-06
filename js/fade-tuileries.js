@@ -1,7 +1,7 @@
 $(document).ready(function() {
 	// $('.holder').toggleClass("visible");
 	$("body").hide();
-	$("body").fadeIn(500);
+	$("body").fadeIn(200);
 
 
 	$('#recurse-versailles').click(function(event) {
@@ -14,19 +14,20 @@ $(document).ready(function() {
 	});
 
 
-	$(".back #history").click(function(event) {
+	$(".back").click(function(event) {
 		event.preventDefault();
 		var newLocation = this.href;
-		$(this).parent().parent().fadeOut(500);
+		$(this).parent().parent().fadeOut(300);
 		// Delays action
 		// console.log(newLocation);
+		console.log("here");
 		window.setTimeout(function() {
 			// $('html').hide();
 			// $('html').load(newLocation);
 			// $('html').fadeIn();
 		    // Redirects to new destination
 				window.location = newLocation;
-		}, 500);
+		}, 300);
 		// $(".tuileries").css("visibility", "hidden");
 		// $(".versailles").attr("class", "tuileries");
 		// console.log("back");
@@ -39,6 +40,35 @@ $(document).ready(function() {
 
 
 	})
+
+	// $(".gallery-jump, .history-jump").click(function(event) {
+	// 	event.preventDefault();
+	// 	var newLocation = this.href;
+	// 	$('body').fadeOut(500);
+	// 	// Delays action
+	// 	// console.log(newLocation);
+	// 	console.log("here");
+	// 	window.setTimeout(function() {
+	// 		console.log(newLocation);
+	// 		$('body').css('background-color', 'white' );
+	// 		// $('html').hide();
+	// 		// $('html').load(newLocation);
+	// 		// $('html').fadeIn();
+	// 	    // Redirects to new destination
+	// 			window.location = newLocation;
+	// 	}, 500);
+	// 	// $(".tuileries").css("visibility", "hidden");
+	// 	// $(".versailles").attr("class", "tuileries");
+	// 	// console.log("back");
+	// 	// var curr = $(this).parent().parent().parent();
+	// 	// console.log(curr);
+	// 	// curr.fadeOut();
+	// 	// $("#book").addClass("pt-page-moveFromLeftFade");
+	// 	// // $("#book").css("visibility", "visible");
+		
+
+
+	// })
 
 	// $('a').click(function(event) {
 	// 	console.log("hello");
