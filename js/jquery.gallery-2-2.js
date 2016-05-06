@@ -76,6 +76,7 @@
 				this._startSlideshow();
 			
 			}
+			$('.dg-next').css("visibility", "hidden");
 			
 		},
 		_validate			: function() {
@@ -411,10 +412,13 @@
 						//this.$leftItm.addClass('dg-transition').css( this._getCoordinates('right') );
 					
 					}
+
 					this.$currentItm	= this.$items.eq( 0 );
 					this.$leftItm		= this.$items.eq(1);
 					this.$rightItm = null;
-
+					$('.dg-next').css("visibility", "hidden");
+					$('.dg-prev').css("visibility", "visible");
+					$('#history-caption').text("Gallery 2/2");
 					break;
 					
 				case 'prev' :
@@ -444,7 +448,11 @@
 					}
 					this.$currentItm	= this.$items.eq( 1 );
 					this.$rightItm		= this.$items.eq(0);
-					this.$leftItm = null;					
+					this.$leftItm = null;
+
+					$('.dg-prev').css("visibility", "hidden");
+					$('.dg-next').css("visibility", "visible");
+					$('#history-caption').text("Gallery 1/2");
 					break;	
 					
 			};
