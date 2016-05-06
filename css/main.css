@@ -147,25 +147,12 @@ body {
 }
 
 .sliver {
-    /* top: 180; */
     position: relative;
-    /* display: inline; */
-    /* right: 0; */
     width: 450px;
     height: 450px;
     overflow: hidden;
-    /* position: relative; */
-    /* margin-top: -40px; */
-    /* margin-top: -40; */
     top: -1040;
     margin-left: 940;
-
-   /* top: 180;
-    display: inline;
-    right: 0;
-    width: 60px;
-    height: 450px;
-	overflow: hidden;*/
 }
 
 
@@ -209,7 +196,7 @@ body {
     margin-bottom: -500px;
     color: white;
     z-index: 9999;
-    margin-left: 60px;
+    margin-left: 80px;
 }
 
 .dg-next {
@@ -228,21 +215,6 @@ body {
 	text-align: center;
 }
 
-.holder {
-	display: none;
-/*	opacity: 0;
-	transition: opacity .125s ease-in-out;
- 	-moz-transition: opacity .125s ease-in-out;
- 	-webkit-transition: opacity .125s ease-in-out;*/
-}
-
-.holder.visible {
-	/*opacity: 1;
-	transition: opacity .25s ease-in-out;
- 	-moz-transition: opacity .25s ease-in-out;
- 	-webkit-transition: opacity .25s ease-in-out;*/
-}
-
 #outer {
 	overflow: hidden;
 	position: relative;
@@ -252,7 +224,7 @@ body {
 	overflow: hidden;
 }
 
-#recursive-tuileries {
+#recursed-tuileries {
 	overflow: hidden;
 }
 
@@ -262,11 +234,7 @@ body {
 	top: 0;
 	left:0;
 	visibility: hidden;
-	/*margin-left: 980px;*/
-	/*height: 500px;*/
-	/*border: 2px solid black;*/
 	overflow: hidden;
-	/*height: 1300px;*/
 }
 
 .versailles {
@@ -275,15 +243,8 @@ body {
 	top: 0;
 	left:0;
 	visibility: hidden;
-	/*margin-left: 980px;*/
-	/*height: 500px;*/
-	/*border: 2px solid black;*/
 	overflow: hidden;
-	/*height: 1300px;*/
 }
-
-.make-
-
 
 @-webkit-keyframes moveFromRightFade {
 	from { opacity: 0.3; -webkit-transform: translateX(100%); }
