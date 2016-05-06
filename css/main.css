@@ -196,7 +196,7 @@ body {
     margin-bottom: -500px;
     color: white;
     z-index: 9999;
-    margin-left: 60px;
+    margin-left: 80px;
 }
 
 .dg-next {
@@ -224,7 +224,7 @@ body {
 	overflow: hidden;
 }
 
-#recursive-tuileries {
+#recursed-tuileries {
 	overflow: hidden;
 }
 
@@ -245,9 +245,6 @@ body {
 	visibility: hidden;
 	overflow: hidden;
 }
-
-.make-
-
 
 @-webkit-keyframes moveFromRightFade {
 	from { opacity: 0.3; -webkit-transform: translateX(100%); }

@@ -21,6 +21,8 @@ $(document).ready(function() {
 		console.log("here");
 	});
 
+	
+
 	$(".back").click(function(event) {
 		event.preventDefault();
 		var newLocation = this.href;
